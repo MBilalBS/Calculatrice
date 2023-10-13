@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+    /* border: 1px solid red; */
+    
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+}
+
+main {
+    width: 60%;
+    /* height: 00px; */
+    margin: auto;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    
+    
+    
+}
+
+.ecran-calc {
+    width: 60%;
+    line-height: 100px;
+    /* border: 1px solid blueviolet; */
+    margin: auto;
+    text-align: end;
+    font-size: 400%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 60px;
+    background-color: black;
+    /* border: 1px solid white; */
+    
+}
+
+.clav-calc {
+    width: 60%;
+    height: 600px;
+    margin: auto;
+    border:  1px solid black;
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid white; */
+}
+
+.pav-num-calc {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    /* background-color: gray; */
+}
+
+.chiffre-calc {
+    width: 30%;
+    height: 100px;
+    margin: auto;
+    cursor: pointer;
+    font-size: 400%;
+    background-color: #343434;
+    border-radius: 50% / 100%;
+    border-style: none;
+
+}
+
+.chiffre-calc:active {
+    background-color: #555555;
+}
+
+.pav-ope-calc {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.all-ope-calc {
+    display: flex;
+    flex-direction: column;
+    margin: 15px auto;
+}
+
+.ope-calc {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    font-size: 2rem;
+    background-color: #FF9400;
+    border-radius: 50% ;
+    cursor: pointer;
+    border-style: none;
+    margin: 5px;
+    
+}
+
+.ope-calc:active {
+    background-color: #fda934;
+}
+
+.boite-egal-calc {
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+    
+}
+
+.egal-calc {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    font-size: 2rem;
+    background-color: #FF9400;
+    border-radius: 50%;
+    cursor: pointer;
+    border-style: none;
+}
+
+.egal-calc:active{
+    background-color: #fda934;
+}
+
+.Ac-calc{
+    width: 30%;
+    height: 100px;
+    margin: auto;
+    cursor: pointer;
+    font-size: 400%;
+    background-color: #A5A5A5;
+    color: black;
+    border-radius: 50% / 100%;
+    border-style: none;
+}
+
+.Ac-calc:active{
+    background-color:#bdbcbc;   
+}
